@@ -1,0 +1,13 @@
+.panel-body a {
+      word-break: break-all;
+
+}
+
+
+.jumbotron {
+  
+  background-color: red; color: black;
+  height:250px;
+
+}
+
