@@ -1,5 +1,5 @@
 .panel-body a {
-      word-break: break-all;
+  word-break: break-all;
 
 }
 
@@ -8,6 +8,11 @@
   
   background-color: red; color: black;
   height:250px;
+
+}
+
+#parameters-Row {
+  margin-left:60px; 
 
 }
 

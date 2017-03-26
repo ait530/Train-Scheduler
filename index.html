@@ -40,54 +40,49 @@
 
     <!-- Row for Searching Train Times -->
     <div class = trainTimes> 
-      <div class="row">
-        <div class="col-sm-12">
-          <br>
-          <!-- First panel is for handling the search parameters -->
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>  Current Train Scheduler</strong></h3>
-            </div>
-            <div class="panel-body">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i> Add Train</strong></h3>
+        </div>
+        <div class="panel-body">
 
-              <!-- Here we create an HTML Form for handling the inputs-->
-              <form role="form">
+          <div id = parameters-Row>
+            <div class="row">
+              <div class="col-md-2">
+                Train Name
+              </div>
+              <div class="col-md-2">
+                Destination
+              </div>
+              <div class="col-md-2">
+                Frequency
+              </div>
+              <div class="col-md-2">
+                Next Arrival
+              </div>
+              <div class="col-md-2">
+                Minutes Away  
+              </div>
+              <div class="col-md-2">
+                1 of 2
+              </div>
+              <hr></hr>
+          </div>
 
-                <!-- Here we create the text box for capturing the search term-->
-                <div class="form-group">
-                  <label for="search">Search Term:</label>
-                  <input type="text" class="form-control" id="search-term">
-                </div>
-
-                <!-- Here we capture the number of records that the user wants to retrieve  -->
-                <div class="form-group">
-                  <label for="pwd">Number of Records to Retrieve:</label>
-                  <select class="form-control" id="num-records-select">
-                <option value="1">1</option>
-                <!-- Setting the option for 5 as default -->
-                <option value="5" selected>5</option>
-                <option value="10">10</option>
-              </select>
-                </div>
-
-                <!-- Here we capture the Start Year Parameter-->
-                <div class="form-group">
-                  <label for="start-year">Start Year (Optional):</label>
-                  <input type="text" class="form-control" id="start-year">
-                </div>
-
-                <!-- Here we capture the End Year Parameter -->
-                <div class="form-group">
-                  <label for="end-year">End Year (Optional):</label>
-                  <input type="text" class="form-control" id="end-year">
-                </div>
-
-              </form>
-            </div>
+          </div>
+          <div class="row">
+          <div class="col-md-4">
+            1 of 3
+          </div>
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col">
+            1 of 3
+          </div>
           </div>
         </div>
-      </div>
-    </div>
+      
 
     <!-- Row for Searching Train Times -->
     <div class="row">
